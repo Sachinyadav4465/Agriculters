@@ -4,7 +4,7 @@ import { FaSeedling } from 'react-icons/fa';
 
 export default function Services() {
   return (
-    <div className="services-wrapper">
+    <div className="services-wrapper" id='services'>
       <Container>
         <Row className="mb-5 align-items-center">
           <Col lg={6}>

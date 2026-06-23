@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaLeaf, FaAward, FaUsers, FaProjectDiagram, FaStar } from "react-icons/fa"; // Added FaStar
-
+import { FaLeaf, FaAward, FaUsers, FaProjectDiagram, FaStar } from "react-icons/fa"; 
 const AboutSection = () => {
   return (
     <section className="about-section">

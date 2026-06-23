@@ -4,7 +4,7 @@ import { FaQuestion, FaLightbulb } from 'react-icons/fa';
 
 export default function FAQ() {
   return (
-    <div className="faq-wrapper">
+    <div className="faq-wrapper" id='contact'>
       <Container>
         <Row className="g-5">
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaCog } from 'react-icons/fa'; // Added FaCog
+import { FaCog } from 'react-icons/fa';
 
 export default function ProcessSteps() {
   return (

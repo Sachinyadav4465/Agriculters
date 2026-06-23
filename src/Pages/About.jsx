@@ -4,7 +4,7 @@ import { FaPenNib } from 'react-icons/fa';
 
 export default function About() {
   return (
-    <Container className="py-5 my-5">
+    <Container className="py-5 my-5" id='about'>
       <Row className="align-items-center">
         <Col lg={6} className="pe-lg-5">
           <div className="d-flex align-items-center gap-2 mb-3">
