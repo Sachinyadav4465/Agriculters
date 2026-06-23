@@ -433,6 +433,38 @@ body {
   object-fit: cover;
 }
 
+/* Testimonials Premium Styling */
+
+
+/* Left Content side me spacing aur padding maintain karne ke liye */
+.testimonial-left-block {
+  padding: 60px 40px;
+}
+
+@media (min-width: 992px) {
+  .testimonial-left-block {
+    padding-right: 80px; /* Large screen par right side space */
+  }
+}
+
+/* Rounded image layout */
+.testimonial-right-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 450px;
+  border-radius: 24px;
+}
+
+/* Avatar Border and layout */
+.testimonial-avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #c49a45;
+}
+
 /* --- Blog Section Styles --- */
 .blog-wrapper {
   background-color: #f3f7f5;
