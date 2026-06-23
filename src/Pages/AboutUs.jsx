@@ -5,12 +5,10 @@ import { FaPlay, FaLeaf, FaSeedling, FaStar } from 'react-icons/fa';
 export default function SunAgricultureFarming() {
   return (
     <div style={{ fontFamily: 'sans-serif', backgroundColor: '#f9f9f9' }}>
-      
-      {/* 1. WHY CHOOSE US & PROGRESS BARS SECTION */}
       <section style={{ backgroundColor: '#0f2c16', color: '#ffffff', padding: '60px 0' }}>
         <Container>
           <Row className="align-items-center g-4">
-            {/* Left Content */}
+
             <Col lg={5}>
               <span style={{ color: '#c49a45', fontStyle: 'italic', fontSize: '16px' }}>Why Choose Our Farm</span>
               <h2 className="fw-bold mt-2 mb-4" style={{ fontSize: '2.5rem', lineHeight: '1.2' }}>
@@ -29,7 +27,6 @@ export default function SunAgricultureFarming() {
               </div>
             </Col>
 
-            {/* Middle Features */}
             <Col lg={4}>
               <div className="d-flex gap-3 mb-4">
                 <div className="mt-1">
@@ -56,7 +53,6 @@ export default function SunAgricultureFarming() {
               </div>
             </Col>
 
-            {/* Right Progress Bars */}
             <Col lg={3}>
               <div className="mb-3">
                 <div className="d-flex justify-content-between mb-1" style={{ fontSize: '12px', fontWeight: '60px' }}>
@@ -94,7 +90,6 @@ export default function SunAgricultureFarming() {
         </Container>
       </section>
 
-      {/* 2. STATS COUNTER CARD (OVERLAY DESIGN) */}
       <Container style={{ marginTop: '-40px', position: 'relative', zIndex: 5 }}>
         <Card className="border-0 shadow-sm rounded-4 p-4 text-center bg-white">
           <Row className="g-4 divide-columns">
@@ -114,15 +109,14 @@ export default function SunAgricultureFarming() {
               <h2 className="fw-bold mb-0" style={{ color: '#0f2c16', fontSize: '2.2rem' }}>250 <span style={{ color: '#c49a45', fontSize: '1.5rem' }}>+</span></h2>
               <p className="text-muted small mb-0 mt-1 fw-medium">Local Agro Partners</p>
             </Col>
-          </Row>
+          </Row>      
         </Card>
       </Container>
 
-      {/* 3. TESTIMONIALS SECTION */}
       <section className="py-5 my-5">
         <Container>
           <Row className="g-5 align-items-center">
-            {/* Left Image */}
+  
             <Col lg={4}>
               <img 
                 src="https://i.pinimg.com/1200x/48/75/f6/4875f65d06c372a381194f91760270a1.jpg" 
@@ -132,7 +126,6 @@ export default function SunAgricultureFarming() {
               />
             </Col>
 
-            {/* Right Testimonial Content */}
             <Col lg={8}>
               <span style={{ color: '#c49a45', fontStyle: 'italic', fontSize: '16px' }}>Testimonials</span>
               <h2 className="fw-bold mt-1 mb-3" style={{ color: '#0f2c16', fontSize: '2.5rem' }}>
@@ -143,7 +136,7 @@ export default function SunAgricultureFarming() {
               </p>
 
               <Row className="g-4">
-                {/* Review 1 */}
+             
                 <Col md={6}>
                   <Card className="border-0 shadow-sm p-4 rounded-4 bg-white">
                     <div className="d-flex gap-1 mb-3 text-warning" style={{ fontSize: '12px' }}>
@@ -167,7 +160,7 @@ export default function SunAgricultureFarming() {
                   </Card>
                 </Col>
 
-                {/* Review 2 */}
+              
                 <Col md={6}>
                   <Card className="border-0 shadow-sm p-4 rounded-4 bg-white">
                     <div className="d-flex gap-1 mb-3 text-warning" style={{ fontSize: '12px' }}>

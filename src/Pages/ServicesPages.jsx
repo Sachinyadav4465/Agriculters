@@ -39,8 +39,7 @@ export default function AgricultureServices() {
 
   return (
     <div style={{ backgroundColor: '#fdfdfd', fontFamily: 'sans-serif' }}>
-      
-      {/* 1. HERO SECTION (Page Header) */}
+
       <section 
         className="py-5 text-center text-white" 
         style={{ 
@@ -58,7 +57,6 @@ export default function AgricultureServices() {
         </Container>
       </section>
 
-      {/* 2. SERVICES GRID */}
       <section className="py-5">
         <Container className="my-5">
           <Row className="text-center mb-5">

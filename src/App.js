@@ -9,6 +9,7 @@ import Contact from "./Pages/Contact";
 import WhatsAppButton from "./Component/Whatasppicon";
 import AboutUs from "./Pages/AboutUs";
 import ServicePages from "./Pages/ServicesPages"
+import UserProfile from "./Pages/UserProfile";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/services" element={<ServicePages/>}/>
+        <Route path="/userprofile" element={<UserProfile/>}/>
         
   
       </Routes>

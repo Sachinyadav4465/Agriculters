@@ -5,9 +5,9 @@ import { FaLeaf, FaPhoneAlt, FaUser } from "react-icons/fa";
 
 export default function AppNavbar() {
   return (
-    <Navbar expand="lg" className="custom-navbar">
+    <Navbar expand="lg" sticky="top" className="custom-navbar ">
       <Container>
-        {/* Logo */}
+      
         <Navbar.Brand
           as={NavLink}
           to="/"
@@ -19,14 +19,13 @@ export default function AppNavbar() {
           Terrain
         </Navbar.Brand>
 
-        {/* Mobile Toggle */}
         <Navbar.Toggle
           aria-controls="main-navbar"
           className="border-0 bg-light"
         />
 
         <Navbar.Collapse id="main-navbar">
-          {/* Navigation Links */}
+         
           <Nav className="mx-auto text-center">
             <Nav.Link
               as={NavLink}
@@ -61,9 +60,8 @@ export default function AppNavbar() {
             </Nav.Link>
           </Nav>
 
-          {/* Right Section */}
           <div className="d-flex align-items-center justify-content-center gap-4 mt-3 mt-lg-0">
-            {/* Phone */}
+      
             <div className="d-flex align-items-center">
               <div
                 className="nav-phone-icon rounded-circle d-flex align-items-center justify-content-center me-2 text-dark"
@@ -80,15 +78,14 @@ export default function AppNavbar() {
                 </small>
 
                 <a
-                  href="tel:070188232018"
+                  href="tel:6392377675"
                   className="text-white fw-bold text-decoration-none"
                 >
-                  0701-8823-2018
+                 6392377675
                 </a>
               </div>
             </div>
 
-            {/* Login Icon */}
             <Link
               to="/login"
               className="d-flex align-items-center justify-content-center text-decoration-none rounded-circle"
@@ -105,6 +102,7 @@ export default function AppNavbar() {
           </div>
         </Navbar.Collapse>
       </Container>
+      <hr />
     </Navbar>
   );
 }

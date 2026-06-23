@@ -2,7 +2,7 @@ import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function WhatsAppButton() {
-  const phoneNumber = "070188232018";
+  const phoneNumber = "6392377675";
   const message = encodeURIComponent("Hello Terrain Landscaping, I want to inquire about your services!");
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -19,4 +19,5 @@ export default function WhatsAppButton() {
       <FaWhatsapp size={28} />
     </a>
   );
-}
+} 
+

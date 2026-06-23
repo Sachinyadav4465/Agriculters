@@ -8,8 +8,7 @@ export default function AboutPage() {
     <section className="about-custom-section">
       <Container>
         <Row className="align-items-center g-5">
-          
-          {/* Left Content Side */}
+
           <Col lg={6} className="about-left-content">
             <div className="d-flex align-items-center gap-2 mb-3">
               <FaLeaf className="brand-leaf-icon" />
@@ -29,11 +28,9 @@ export default function AboutPage() {
             </Button>
           </Col>
 
-          {/* Right Cards Side */}
           <Col lg={6}>
             <Row className="g-4 align-items-start">
-              
-              {/* Card 1: Expert Design */}
+ 
               <Col sm={6}>
                 <Card className="about-feature-card border-0 shadow-sm rounded-4 overflow-hidden">
                   <div className="card-img-wrapper">
@@ -53,8 +50,6 @@ export default function AboutPage() {
                   </Card.Body>
                 </Card>
               </Col>
-
-              {/* Card 2: Sustainable Practices (With Highlighted Background Color) */}
               <Col sm={6}>
                 <Card className="about-feature-card highlighted-card border-0 shadow-sm rounded-4 overflow-hidden">
                   <div className="card-img-wrapper">
